@@ -1,0 +1,80 @@
+document.write("coco", { name: "millen" });
+// alert({ name: "millen" });
+console.log({ name: "millen" });
+let name2 = "millen";
+let name3 = "toh";
+console.log(name2 + name3);
+console.log("BOD");
+console.log("BOD");
+const students = ["ghislain", "oveta", "idris"];
+console.log(students[1]);
+console.log(students.length);
+students[1] = "millen";
+console.log(students[1]);
+console.log(students);
+
+const randomNumber = 13;
+document.querySelector(".form").addEventListener("submit", function (e) {
+  e.preventDefault();
+  let value = document.getElementById("amount").value;
+  value = parseInt(value);
+  console.log("Input Value Type");
+  console.log(value);
+  console.log("Sum of Two Values");
+  console.log(randomNumber + value);
+});
+
+function formulapos(a, b, c) {
+  let root1 = b * b - 4 * a * c;
+  let top = -b + Math.sqrt(root1);
+  let all = top / (2 * a);
+  return all;
+}
+let ans = formulapos(2, 9, -5);
+
+function formulaneg(a, b, c) {
+  let root1 = b * b - 4 * a * c;
+  let top = -b - Math.sqrt(root1);
+  let all = top / (2 * a);
+  return all;
+}
+let ans2 = formulaneg(2, 9, -5);
+console.log([ans, ans2]);
+
+let g = 2;
+let i = 0;
+let p = 25;
+while (i < g) {
+  r = p * p;
+  i++;
+}
+console.log(r);
+
+let v = 5 < 7;
+console.log(typeof v);
+if (v) {
+  console.log("nnw empire");
+}
+let statement = ["i love programing", "hate programing", "niba na programer"];
+let age = 4;
+if (age < 2) {
+  console.log(statement[0]);
+} else {
+  console.log(statement[2]);
+}
+
+let year = 2009;
+
+if (year % 4 == 0) {
+  if (year % 100 == 0) {
+    if (year % 400 == 0) {
+      console.log(year + " is a leap year.");
+    } else {
+      console.log(year + " is not a leap year");
+    }
+  } else {
+    console.log(year + "is a leap year");
+  }
+} else {
+  console.log(year + "is not a leap year");
+}
