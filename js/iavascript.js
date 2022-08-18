@@ -1,23 +1,34 @@
+//in this tutorial,all block of codes have been commented out and abve it, you will see their name title 
+//to use each code,just uncomment the code and refresh your browser to see its functinality
+//ps. uncomment only the neccessary lines of code at the moment you need witout its heading to avoid errors like var names clashing or undefine variables
+//all topices are seperated with an empty line
+
+//3 main methods to call your js to your html webpage
+//calling to the console
 // alert("hello students of NNW");
 
+//types of data types in js
 // numbers, String, null, boolean, undefined;
 
+//how to declare and define variables 
 // let welcome = "welcome to ";
 // let name1 = "NNW Empire";
 // let num1 = 10;
 // let num2 = 20;
-// console.log(num1 % num2);
 
+//creating an array 
 // let students = ["Christelle", "Brandon", "Ovetta", 6, 3, 7];
 // let beststudent = "the best of nnw is ";
 // console.log(beststudent + students[0]);
 
+
+//writing functions 
 // function greetings() {
 //   console.log("good morning nnw students");
 // }
 
+//writing functions with parameters in js
 // let lenght = 5;
-
 // function areaofsqr(params) {
 //   let area = params * params;
 //   console.log(area);
