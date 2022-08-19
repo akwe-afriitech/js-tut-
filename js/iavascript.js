@@ -3,7 +3,7 @@
 //ps. uncomment only the neccessary lines of code at the moment you need witout its heading to avoid errors like var names clashing or undefine variables
 //all topices are seperated with an empty line
 
-//3 main methods to call your js to your html webpage
+//3 main methods to call your js code to your html webpage
 //calling to the console
 // alert("hello students of NNW");
 
@@ -182,6 +182,11 @@
 // console.log(dice);
 // console.log(dice2);
 
+
+
+//loops
+
+//while loop
 // let g = 4;
 // let i = 0;
 // let p = 2;
@@ -189,9 +194,10 @@
 //   r = p * p * i;
 //   i++;
 // }
-
 // console.log(r);
 
+
+//for loop
 // // program to print the items of an array
 // const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
 
@@ -201,13 +207,12 @@
 // }
 // console.log(text);
 
+//do while loop
 // // program to print the powers of 2
 // let i = 1,
 //   n = 0;
-
 // do {
 //   console.log(i);
-
 //   i = i * 2;
 //   n = n + 1;
 // } while (i < 10);
@@ -221,29 +226,12 @@
 // }
 // console.log(f);
 
-// let year;
-// year = 2100;
-
-// if (year % 4 == 0) {
-//   if (year % 100 == 0) {
-//     if (year % 400 == 0) {
-//       console.log("this year is a leap year");
-//     } else {
-//       console.log("this year is not a leap year");
-//     }
-//   } else {
-//     console.log("this year is a leap year");
-//   }
-//   // console.log("this year is a leap year");
-// } else {
-//   console.log("this year is not a leap year");
-// }
-
 // let amount = 10;
 // while (amount > 0) {
 //   console.log("you still have money ");
 //   amount = amount - 1;
 // }
+
 
 // let student = 10;
 // do {
@@ -266,16 +254,17 @@
 //   console.log(n);
 // }
 
-let student = ["Ghislain", "Ovetta", "Idriss", "Brandon"];
+//let student = ["Ghislain", "Ovetta", "Idriss", "Brandon"];
 // for (let i = 0; i < student.length; i++) {
 //   console.log(student[i]);
 // }
-let i = 0;
+//let i = 0;
 // while (i < student.length) {
 //   console.log(student[i]);
 //   i++;
 // }
-do {
-  console.log(student[i]);
-  i++;
-} while (i < student.length);
+//do {
+  //console.log(student[i]);
+  //i++;
+//} while (i < student.length);
+
