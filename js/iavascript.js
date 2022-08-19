@@ -103,6 +103,8 @@
 // let areaOfACylinder = area(radius, height);
 // console.log(areaOfACylinder);
 
+
+//function for area of a trapezium
 // let base = 10;
 // let height = 20;
 // function area(b, h) {
@@ -112,13 +114,15 @@
 // let a = area(base, height);
 // console.log(a);
 
-// area of a trapezium
-//  base plus base times height divided by two
 
-// operators = + - * / == ++ -- < > <= >= != ===
+// operators 
+//= + - * / == ++ -- < > <= >= != ===
 
+
+//conditionals ,if, else and else if
+
+//grading program
 // let marks = 20;
-
 // if (marks == 0) {
 //   console.log("you have failed terribly");
 // } else if (marks >= 1 && marks <= 9) {
@@ -130,6 +134,8 @@
 // } else if (marks <= 20) {
 //   console.log("you are intelligent");
 // }
+
+//month validation program
 // let month;
 // month = "february";
 
@@ -154,6 +160,7 @@
 //   console.log("this month has 28 or 29 days");
 // }
 
+//leap year check program
 // let year = 2100;
 // if (year % 4 == 0) {
 //   if (year % 100 == 0) {
