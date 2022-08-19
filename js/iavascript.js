@@ -35,6 +35,8 @@
 // }
 // areaofsqr(lenght);
 
+
+//a function to convert from celsius to kelvin
 // let celsius;
 // celsius = 20;
 
@@ -50,10 +52,11 @@
 // }
 // convert(celsius);
 
+
+//a function for the quadratic formula
 // let a = 2,
 //   b = 9,
 //   c = -5;
-
 // function quadraticneg(x, y, z) {
 //   let root1 = y * y - 4 * x * z;
 //   let root2 = -y - Math.sqrt(root1);
@@ -92,6 +95,7 @@
 // let radius = 5;
 // let height = 10;
 
+//function to calculate area of a cylinder
 // function area(r, h) {
 //   let formula = 2 * Math.PI * r * h;
 //   return formula;
