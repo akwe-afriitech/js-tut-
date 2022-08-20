@@ -199,6 +199,6 @@
 // });
 
 // let arr = youngPeople.map(function (people) {
-//   return `<p>${people.name}</p>`;
+//   return people.name;
 // });
-// document.querySelector("p").innerHTML = arr.join("");
+
