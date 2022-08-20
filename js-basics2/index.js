@@ -31,7 +31,7 @@
 // let name1 = "NNW Empire ";
 // console.log(name1.length);
 
-// string  methods
+// string  methods(some)
 // let name1 = "NNW Empire ";
 // console.log(name1);
 // console.log(name1.toUpperCase());
