@@ -1,5 +1,7 @@
-//let name1 = "nnw";
+//revision of some basics1 principles
 
+//functions
+//let name1 = "nnw";
 // function name3() {
 //   let name2 = "empire";
 //   return name2;
@@ -22,13 +24,14 @@
 // let area = areaOACircle(radius);
 // let height1 = areaOACircle(height);
 
-// string propertise
 
+//start of basics2
+
+// string propertise
 // let name1 = "NNW Empire ";
 // console.log(name1.length);
 
 // string  methods
-
 // let name1 = "NNW Empire ";
 // console.log(name1);
 // console.log(name1.toUpperCase());
@@ -39,12 +42,10 @@
 // let name1 = ` nnw`;
 // let sentence2 = "i'm a " + ' "student" ' + " of" + name1;
 // let sentence = `i'm a "student" of ${name1} `;
-
 // console.log(sentence);
 // console.log(sentence2);
 
 // Array properties
-
 // let students = ["ovetta", "idriss", "ghislain", "cedric", 7, 4, 7, 7, 9, 3, 7];
 // console.log(students[0]);
 // console.log(students[students.length - 1]);
@@ -54,13 +55,15 @@
 //   "idriss",
 //   "ghislain",
 //   "cedric",
-
 // ];
 
+//using array propertise
 // for (let i = 0; i <= students.length - 1; i++) {
 //   console.log(students[i]);
 // }
 
+
+//array methods(some)
 // let students = ["ovetta", "idriss", "ghislain", "cedric"];
 // console.log(students);
 // students.unshift("christell");
@@ -73,10 +76,9 @@
 // console.log(students);
 // let number = [2, 5, 7, 8];
 
+//exercise using array method and property
 // let students = ["ovetta", "idriss", "ghislain", "cedric"];
-
 // let companyName = " nnw";
-
 // let newarr = [];
 // console.log(newarr);
 // for (let i = 0; i < students.length; i++) {
@@ -85,13 +87,15 @@
 // }
 // console.log(newarr);
 
-// let sum = 0;
 
+// let sum = 0;
 // let number = [2, 4, 6, 8, 10, 4];
 // for (let i = 0; i < number.length; i++) {
 //   sum += number[i];
 // }
 // console.log(sum);
+
+
 //tenary operators
 // let value;
 // if (value) {
@@ -99,10 +103,11 @@
 // } else {
 //   console.log(`value is false`);
 // }
-
+//from the logic above, using a tenary operator will be as follows
 // value ? console.log(`value is true`) : console.log(`value is false`);
-//callback and higher order functions
 
+
+//callback and higher order functions
 // let name1 = `students`;
 // function greetmorning(name) {
 //   console.log(`goodmorning ${name} welcome to ${companyName}`);
@@ -135,10 +140,11 @@
 //   greet(name1, companyName, afternoon);
 // }
 
+
+
 //array iterators
 
 // let students = ["ovetta", "idriss", "ghislain", "cedric"];
-
 // function name1(params) {
 //   console.log(`${params} nnw`);
 // }
