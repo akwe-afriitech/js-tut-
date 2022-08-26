@@ -29,20 +29,31 @@
 //all[2].style.color = "pink";
 
 
-// let ul = document.querySelector(".div");
+/how to traverse a DOM tree 
 
+//by using childNodes
+// let ul = document.querySelector(".div");
+// let children = ul.childNodes;
+// console.log(childNodes);
+
+
+//by using children
+// let ul = document.querySelector(".div");
 // let children = ul.children;
 // console.log(children);
 // children[0].style.color = "red";
-
 // console.log(children[0].textContent);
 
+//by using the parentElement method
 // let listitem = document.querySelector(".fruits");
-
+ //let listparent = listitem.parentElement;
+ // console.log(listparent);
 // let listparent =
 //   listitem.parentElement.parentElement.parentElement.parentElement
 //     .parentElement;
 // console.log(listparent);
+
+//by using nextSibling and previousSibling Method
 // let listitem = document.querySelector(".fruits");
 // let nextbro =
 //   listitem.nextElementSibling.previousElementSibling.previousElementSibling;
@@ -58,27 +69,26 @@ next element sibling()
  element sibling()
  */
 
+//little example to combine some things we have learnt so far
 // let listitem = document.querySelector(".div");
 // let att = listitem.getAttribute("style");
-
 // console.log(att);
-
 // let btn = document.querySelector("#btn");
 // btn.addEventListener("click", function () {
 //   listitem.setAttribute("class", "header");
 // });
-
 // let heading = document.querySelector(".heading2");
 // heading.className = "colors ";
 // heading.className = "header";
 // let heading = document.querySelector(".heading2");
 // heading.classList.add("colors");
 // heading.classList.add("header");
-
 // let checker = heading.classList.contains("header");
 // console.log(checker);
-let div = document.querySelector(".parent");
+
+//how to create a html element in js using append method
+/*let div = document.querySelector(".parent");
 let head = document.createElement("h1");
 let text = document.createTextNode("this a heading created in js");
 head.appendChild(text);
-div.appendChild(head);
+div.appendChild(head);*/
