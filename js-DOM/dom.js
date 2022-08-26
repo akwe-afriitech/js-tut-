@@ -27,3 +27,58 @@
 //Document.querySelector(".h1").style.color = "green";
 //let all = document.querySelectorAll(".fruits");
 //all[2].style.color = "pink";
+
+
+// let ul = document.querySelector(".div");
+
+// let children = ul.children;
+// console.log(children);
+// children[0].style.color = "red";
+
+// console.log(children[0].textContent);
+
+// let listitem = document.querySelector(".fruits");
+
+// let listparent =
+//   listitem.parentElement.parentElement.parentElement.parentElement
+//     .parentElement;
+// console.log(listparent);
+// let listitem = document.querySelector(".fruits");
+// let nextbro =
+//   listitem.nextElementSibling.previousElementSibling.previousElementSibling;
+// console.log(nextbro.textContent);
+
+/*
+childnodes(return all whites with your elements)
+children(return just your elements)
+parent element(checks the parennt of the current element and returs it)
+previous sibling()
+next sibling()
+next element sibling()
+ element sibling()
+ */
+
+// let listitem = document.querySelector(".div");
+// let att = listitem.getAttribute("style");
+
+// console.log(att);
+
+// let btn = document.querySelector("#btn");
+// btn.addEventListener("click", function () {
+//   listitem.setAttribute("class", "header");
+// });
+
+// let heading = document.querySelector(".heading2");
+// heading.className = "colors ";
+// heading.className = "header";
+// let heading = document.querySelector(".heading2");
+// heading.classList.add("colors");
+// heading.classList.add("header");
+
+// let checker = heading.classList.contains("header");
+// console.log(checker);
+let div = document.querySelector(".parent");
+let head = document.createElement("h1");
+let text = document.createTextNode("this a heading created in js");
+head.appendChild(text);
+div.appendChild(head);
