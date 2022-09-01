@@ -90,5 +90,6 @@ next element sibling()
 /*let div = document.querySelector(".parent");
 let head = document.createElement("h1");
 let text = document.createTextNode("this a heading created in js");
+
 head.appendChild(text);
 div.appendChild(head);*/
